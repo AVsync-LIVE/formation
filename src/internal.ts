@@ -176,8 +176,10 @@ import { Sidebar, Navs } from './components/Sidebar/Sidebar'
 import { Select } from './components/Select/Select'
 import { Switch } from './components/Switch/Switch'
 import { LabelColorPicker } from './components/LabelColorPicker/LabelColorPicker'
+import { ActivityEditor } from './components/Timeline/ActivityEditor'
 import { Item } from './components/ListEditor/Item'
 export {
+  ActivityEditor,
   ArticlePreview,
   Article,
   Search,
@@ -200,6 +202,8 @@ import { TimePicker } from './components/TimePicker/TimePicker'
 import { DatePicker } from './components/DatePicker/DatePicker'
 import { Tags } from './components/Tags/Tags'
 import { Tabs } from './components/Tabs/Tabs'
+import { TimeReference } from './components/Timeline/TimeReference'
+import { TimelineSurface } from './components/Timeline/TimelineSurface'
 import { TimeZone } from './components/TimeZone/TimeZone'
 import { LabelEditor } from './components/LabelEditor/LabelEditor'
 import { List } from './components/ListEditor/List'
@@ -209,6 +213,8 @@ export {
   TimePicker,
   DatePicker,
   Tags,
+  TimeReference,
+  TimelineSurface,
   Tabs,
   TimeZone,
   LabelEditor,
@@ -216,13 +222,16 @@ export {
 }
 
 // Organs (3)
-import { DateAndTimePicker } from './components/DateAndTimePicker/DateAndTimePicker'
 import { LabelManager } from './components/LabelManager/LabelManager'
+import { Timeline } from './components/Timeline/Timeline'
+export {
+  LabelManager,
+  Timeline
+}
 import { ExpandableList } from './components/ListEditor/ExpandableList'
 
 export {
   DateAndTimePicker,
-  LabelManager,
   ExpandableList
 }
 
